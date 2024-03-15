@@ -12,8 +12,11 @@ const product = {
 const App = () => {
   return (
     <>
-      <ProductCard product={product} initialValues={{ count: 0 }}>
-        {() => (
+      <ProductCard
+        product={product}
+        initialValues={{ count: 0 /*Some properties*/ }}
+      >
+        {({ ...props }) => (
           <>
             <ProductImage />
             <ProductTitle />
