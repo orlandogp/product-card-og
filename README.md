@@ -12,7 +12,7 @@ import {
   ProductImage,
   ProductTitle,
   ProductButtons,
-} from '../components';
+} from 'product-card-og';
 ```
 
 ```typescript
